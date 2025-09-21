@@ -2,7 +2,7 @@ import Uart::*;
 import StmtFSM::*;
 import GetPut::*;
 typedef 115200 BaudRate;
-typedef 10_000_000 ClockFreq;
+typedef 50_000_000 ClockFreq;
 
 (*synthesize*)
 module mkUartSender(UartTxWires#(BaudRate, ClockFreq));

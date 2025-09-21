@@ -1,4 +1,5 @@
 import Uart::*;
+import UartSender::*;
 import GetPut::*;
 import StmtFSM::*;
 import Connectable::*;
